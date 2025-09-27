@@ -1,0 +1,99 @@
+:root {
+    --it-navy: #003366; /* Azul Marino - Color principal/oscuro */
+    --it-blue: #007bff; /* Azul - Color de acento/enlaces */
+    --it-bg-light: #F8F9FA; /* Fondo base claro */
+    --it-text-dark: #212529; /* Texto oscuro */
+}
+
+/* 2. Estilos Globales y de Tipografía */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--it-bg-light);
+    color: var(--it-text-dark);
+}
+
+h1, h2, h3, h4 {
+    color: var(--it-navy);
+}
+
+/* 3. Navbar */
+.navbar {
+    background-color: white !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.navbar-brand {
+    color: var(--it-navy) !important;
+    font-weight: 700;
+}
+
+/* 4. Botones y Elementos Interactivos */
+.btn-outline-primary {
+    color: var(--it-navy);
+    border-color: var(--it-navy);
+}
+
+.btn-outline-primary:hover {
+    color: white;
+    background-color: var(--it-navy);
+    border-color: var(--it-navy);
+}
+
+.btn-primary {
+    background-color: var(--it-blue);
+    border-color: var(--it-blue);
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background-color: var(--it-navy);
+    border-color: var(--it-navy);
+}
+
+/* 5. Tarjetas (Cards) */
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.5rem;
+    transition: box-shadow 0.2s;
+}
+
+.card:hover {
+    box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,.15);
+}
+
+.card-header {
+    background-color: var(--it-navy);
+    color: white;
+    font-weight: 600;
+    border-bottom: 1px solid var(--it-navy);
+}
+
+/* 6. Header de Contenido (en páginas internas) */
+.page-header {
+    background-color: var(--it-navy);
+    color: white;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+}
+
+.page-header h1 {
+    color: white;
+    font-weight: 700;
+}
+
+/* 7. Footer */
+footer {
+    background-color: var(--it-navy);
+    color: white;
+}
+
+/* Utilidades adicionales */
+.icon-qa {
+    color: var(--it-blue);
+    margin-right: 0.5rem;
+}
+
+.text-justify {
+    text-align: justify;
+}

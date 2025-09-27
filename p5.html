@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Programa Eureka | Formas de Validación Código</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" xintegrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" xintegrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg border-bottom">
+    <div class="container">
+        <a class="navbar-brand fw-semibold" href="index.html">Programa Eureka | QA</a>
+        <div class="d-flex gap-2">
+            <a class="btn btn-outline-primary btn-sm" href="index.html">Inicio</a>
+            <a class="btn btn-outline-primary btn-sm" href="ref.html">Bibliografía</a>
+        </div>
+    </div>
+</nav>
+
+<main class="container py-5">
+    <div class="page-header text-center">
+        <h1>¿Qué formas existen para validar el código fuente?</h1>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="p-4 bg-white rounded shadow-sm">
+                <p class="text-justify lead">La validación del código fuente se realiza a través de métodos manuales y herramientas automatizadas, cubriendo aspectos funcionales, estructurales y de seguridad.</p>
+                
+                <h2 class="h4 mt-4"> 1. Revisión Manual (Code Review)</h2>
+                <p class="text-justify">Implica que uno o más compañeros (desarrolladores o QA) examinen el código escrito por otro. Es esencial para:</p>
+                <ul class="list-unstyled mb-4">
+                    <li class="mb-2">Asegurar que se cumplan las reglas de negocio.</li>
+                    <li class="mb-2">Intercambiar conocimiento y mantener la consistencia del estilo de código.</li>
+                    <li class="mb-2">Detectar errores lógicos que las herramientas automáticas podrían pasar por alto.</li>
+                </ul>
+
+                <h2 class="h4 mt-4"> 2. Análisis Estático de Código (SAST)</h2>
+                <p class="text-justify">Herramientas automatizadas (como SonarQube) analizan el código sin ejecutarlo para identificar errores comunes, vulnerabilidades de seguridad (*security bugs*) y problemas de calidad o deuda técnica.</p>
+                
+                <h2 class="h4 mt-4">3. Pruebas Automatizadas del Código</h2>
+                <ul class="list-unstyled mb-4">
+                    <li class="mb-2">Pruebas Unitarias:Verifican la funcionalidad de la unidad más pequeña del código (una función o método, como JUnit en Java).</li>
+                    <li class="mb-2">Pruebas de Integración: Confirman que diferentes módulos o servicios interactúan correctamente entre sí (bases de datos, APIs).</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="py-3 mt-5">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <small class="mb-2 mb-md-0">&copy; 2025 • Programa Eureka • QA</small>
+    </div>
+</footer>
+
+</body>
+</html>
